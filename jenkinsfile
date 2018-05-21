@@ -46,10 +46,10 @@ node('test') {
          sh 'rm node_modules -rf'
 
          mail body: 'project build successful',
-                     from: 'xxxx@yyyyy.com',
+                     from: 'michael.morris8193@gmail.com',
                      replyTo: 'xxxx@yyyy.com',
                      subject: 'project build successful',
-                     to: 'yyyyy@yyyy.com'
+                     to: 'michael.morris8193@gmail.com'
        }
 
 
