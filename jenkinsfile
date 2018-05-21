@@ -45,6 +45,8 @@ node('test') {
          sh 'npm prune'
          sh 'rm node_modules -rf'
 
+         build  'MasterCopy'
+            
          mail body: 'project build successful',
                      from: 'michael.morris8193@gmail.com',
                      replyTo: 'xxxx@yyyy.com',
