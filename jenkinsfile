@@ -1,6 +1,6 @@
 
 node('test') {
-
+// literally nothing
 
     currentBuild.result = "SUCCESS"
 
